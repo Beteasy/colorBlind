@@ -1,0 +1,30 @@
+出勤状态规定：
+0：到勤
+1：迟到
+2：旷课
+3：请假
+
+假条表单更正：
+（1）添加一个假条的编号（整形）
+（2）假条时间改正为请假时间和截止时间（时间类型  不要用String）
+（3）假条 请假类型规定：
+	1：病假
+	2：事假
+（4）请假状态规定：
+	0：待审批
+	1：批准请假
+	2：审核不通过
+
+课程编号规定：
+
+showJiaTiaoListByPage
+
+<a class="waves-effect waves-dark" href="/AttendenceSystem/counselorInput/piJia.jsp" aria-expanded="false"><i class="mdi mdi-emoticon"></i><span class="hide-menu">请假审批</span></a>
+
+
+排课表：
+1.课程号（主键）
+2.班级（主键）
+3.星期（主键）
+4.开始时间（主键）
+5.下课时间
